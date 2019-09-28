@@ -1,0 +1,69 @@
+#text-scroll {
+	margin-top:  80px;
+}
+
+#navbar nav.navbar {
+	background-color: #5DA3D6;
+	color: #FF8381;
+	opacity: 0.8;
+}
+#navbar nav.navbar .navbar-brand {
+	/* font-family: 'Mansalva', cursive; */
+	font-weight: 400;
+	/* color: rgb(255, 131, 129); */
+	/* font-size: 30px; */
+}
+#
+#text-scroll .container {
+	/* background: #FBEEC1; */
+	/* border: 1px solid #fbEDC1; */
+	padding: 2px;
+}
+
+#text-scroll .container a:hover {
+	text-decoration: none;
+}
+
+#text-scroll .container a {
+	color: #C41230;
+}
+
+#slides {
+	padding: 0;
+	margin: 0;
+}
+
+#slides img{
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+
+.navbar img {
+	width: 50px;
+}
+
+
+/* some standard utility class */
+
+.vip-image {
+	width: 100%;
+	height: 100%;
+}
+
+.roboto {
+	font-family: 'Roboto', sans-serif;
+}
+
+.mansalva {
+	font-family: 'Mansalva', cursive;
+}
+
+/* ====================================
+media queries  */
+
+@media only screen and (max-width: 575.98px) {
+	.vip-image {
+		margin-top: 10px;
+	}
+}
