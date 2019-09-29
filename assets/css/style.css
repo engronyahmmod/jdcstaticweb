@@ -1,3 +1,7 @@
+body {
+	background: url("../image/leaves-pattern.png") repeat top left;
+}
+
 #text-scroll {
 	margin-top:  80px;
 }
@@ -5,7 +9,7 @@
 #navbar nav.navbar {
 	background-color: #5DA3D6;
 	color: #FF8381;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 #navbar nav.navbar .navbar-brand {
 	/* font-family: 'Mansalva', cursive; */
@@ -13,7 +17,34 @@
 	/* color: rgb(255, 131, 129); */
 	/* font-size: 30px; */
 }
-#
+
+#footer {
+	background-color: #5DA3D6;
+	color: white;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+#footer h4 {
+	font-size: 15px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#footer iframe {
+	width: 180px;
+	display: block;
+	margin: 0 auto;
+}
+
+#footer a {
+	color: rgb(253, 253, 253);
+}
+#footer a:hover {
+	color: rgba(236, 235, 230, 0.521);
+}
+
 #text-scroll .container {
 	/* background: #FBEEC1; */
 	/* border: 1px solid #fbEDC1; */
@@ -59,11 +90,43 @@
 	font-family: 'Mansalva', cursive;
 }
 
+.t-w {
+	width: 200px;
+}
+.hero {
+	width: 100px;
+	height: 100px;
+	margin: 10px auto;
+}
+
+#side-links a {
+	color: #FF8381;
+}
+#side-links a:hover {
+	color: red;
+}
+
+#side-links li {
+	background-color: #FFE88A;
+}
+#side-links li:hover {
+	background-color: rgba(248, 222, 115, 0.815);
+	/* transition: backgroundcolor 1s; */
+}
+
+#cources {
+	background: url("../image/so-white.png") repeat top left;
+}
+
 /* ====================================
 media queries  */
 
 @media only screen and (max-width: 575.98px) {
 	.vip-image {
 		margin-top: 10px;
+	}
+
+	#navbar nav.navbar {
+		opacity: 1.0;
 	}
 }
